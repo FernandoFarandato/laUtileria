@@ -32,11 +32,15 @@
                                 <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Tienda
                                 </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="#">Remeras</a>
-                                    <a class="dropdown-item" href="#">Zapatillas</a>
-                                    <a class="dropdown-item" href="#">Accesorios</a>
+
+                                <!-- DropDown Button -->
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Remeras</a>
+                                <a class="dropdown-item" href="#">Zapatillas</a>
+                                <a class="dropdown-item" href="#">Accesorios</a>
                                 </div>
+                                <!-- DropDown Button -->
+
                             </div>
                         </li>
                         <li class="nav-item">
@@ -47,24 +51,27 @@
                 </div>
             </nav>
         </div>
+        <!-- Navbar -->
 
+        <!-- Main Content -->
         <div class="container p-4 lead">     
             
-            <!-- Header -->
+            <!-- Alert -->
             <div class="alert alert-danger alert-dismissible fade show m-5" role="alert">
                 <strong>Pagina en desarrollo</strong>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
             </div>
+            <!-- Alert -->
 
-
+            <!-- Top Section -->
             <div class="bg-warning text-center p-5 ">
                 <h1 class="display4">La Utileria.</h1>
                 <p class="lead p-2">Tienda de indumentaria deportiva.</p>
                 <a href="https://www.instagram.com/lautileria.rafaela/" class="p-1 bg-dark text-white p-2 btn">Pagina de Instagram</a>
-
             </div>
+            <!-- Top Section -->
 
             <br>
 
@@ -407,11 +414,12 @@
                         </div>
                     </div>
                 </div>
-                
-
             </div>
-            <br>
+            <!-- Shop Cards-->
 
+            <br>
+            
+            <!-- Page count -->
             <div class="btn-toolbar " role="toolbar" aria-label="Toolbar with button groups">
                 <div class="btn-group mr-1 m-auto" role="group" aria-label="First group">
                   <button type="button" class="btn btn-secondary">Anterior</button>
@@ -422,69 +430,53 @@
                   <button type="button" class="btn btn-secondary">Siquiente</button>
                 </div>
             </div>
+            <!-- Page count -->
 
         </div>
-        
-        <section class="mb-4 container">
+        <!-- Main Content -->
 
-            <!--Section heading-->
+        <!--  Contact Section -->
+        <section class="mb-4 container">
+            
             <h2 class="h1-responsive font-weight-bold text-center my-4">Contactanos</h2>
             <!--Section description-->
             <p class="text-center w-responsive mx-auto mb-5">Necesitas una prenda en particular o necesitas cotizacion para producots en cantidad? Dejanos un correo electronico</p>
         
             <div class="row">
-        
-                <!--Grid column-->
+                
+                <!--  Message Section -->
                 <div class="col-md-9 mb-md-0 mb-5">
                     <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-        
-                        <!--Grid row-->
                         <div class="row">
-        
-                            <!--Grid column-->
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
                                     <input type="text" id="name" name="name" class="form-control">
                                     <label for="name" class="">Nombre</label>
                                 </div>
                             </div>
-                            <!--Grid column-->
-        
-                            <!--Grid column-->
+
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
                                     <input type="text" id="email" name="email" class="form-control">
                                     <label for="email" class="">Correo electronico</label>
                                 </div>
                             </div>
-                            <!--Grid column-->
-        
                         </div>
-                        <!--Grid row-->
-    
-        
-                        <!--Grid row-->
+
                         <div class="row">
-        
-                            <!--Grid column-->
                             <div class="col-md-12">
-        
                                 <div class="md-form">
                                     <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
                                     <label for="message">Mensaje</label>
                                 </div>
-        
                             </div>
                         </div>
-                        <!--Grid row-->
-        
                     </form>
-        
                     <button type="button" class="btn btn-dark">Enviar</button>
                 </div>
-                <!--Grid column-->
-        
-                <!--Grid column-->
+                <!--  Message Section -->
+                
+                <!--  Info Section -->
                 <div class="col-md-3 text-center">
                     <ul class="list-unstyled mb-0">
                         <li><i class="fas fa-map-marker-alt fa-2x"></i>
@@ -500,39 +492,39 @@
                         </li>
                     </ul>
                 </div>
-                <!--Grid column-->
-        
+                <!--  Info Section -->
+                
             </div>
         
         </section>
+        <!--  Contact Section -->
 
+        <!--  Footer -->
         <div>
             <footer class="bg-dark text-center py-4 mt-5">
                 <a href="#" class="text-white">Todos los derechos reservaods...etc</a>
             </footer>
         </div>
-
-
+        <!--  Footer -->
   
-  <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Item agregado a carrito!</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Seguir comprando</button>
-                <button type="button" class="btn btn-primary">Ir al carrito</button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Item agregado a carrito!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Seguir comprando</button>
+                        <button type="button" class="btn btn-primary">Ir al carrito</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-
-
+        <!-- Modal -->
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
